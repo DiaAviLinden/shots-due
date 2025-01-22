@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Jabs Am I Due For?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>What Jabs Am I Due For?</h1>
+    </header>
+
+    <section id="account-section">
+        <button onclick="createAccount()">Create an Account</button>
+        <input type="number" id="user-id" placeholder="Enter ID" />
+        <button onclick="loginUser()">Login</button>
+    </section>
+
+    <section id="vaccine-info">
+        <p>Your current age is: <span id="user-age"></span></p>
+        <button onclick="showVaccineSchedule()">Show Vaccines</button>
+        <button onclick="emailReminder()">Email My Vaccine Schedule</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 What Jabs Am I Due For? Al
